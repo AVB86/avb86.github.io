@@ -123,19 +123,21 @@ legend{
 }
 
 button{
+  font-size: 1.3em;
+  box-shadow: 0 0 20px 1px rgb(255, 89, 247, 0.80);
+  background-image:-webkit-linear-gradient(top, #eb94d0,#7dbce2);
+  border: 1px solid rebeccapurple;
+  cursor: pointer;
+}
+
+button.show{
   width: 380px;
   max-width: auto;
   margin: auto;
   margin-top: 10%;
-  padding: 20px;
-  box-shadow: 0 0 20px 1px rgb(255, 89, 247, 0.80);
-  background-image:-webkit-linear-gradient(top, #eb94d0,#7dbce2);
-  border: 1px solid rebeccapurple;
-  font-size: 1.3em;
-  cursor: pointer;
+  padding: 20px;;
   margin-top: 20px;
   padding: 10px 20px;
-  
 }
 
 .formulario_input, .formulario_label, .formulario_submit {
@@ -181,4 +183,22 @@ button{
 
 .fijar{
   margin-top: -150px;
+}
+
+/*Estilo para boton de scroll up*/
+.scroll-top {
+  box-shadow: 0 0 20px 1px rgba(220, 6, 159, 0.8);
+  background: linear-gradient(#eb94d0 30%, #9198e5);
+  font-size: 1.3em;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: none;
+}
+.scroll-top i {
+  display: inline-block;
+  
 }
